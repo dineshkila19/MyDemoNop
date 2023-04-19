@@ -1,0 +1,326 @@
+2023-04/17 17:13:50 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/17 17:13:50 INFO  Log:24 - user is validating the Title
+2023-04/17 17:13:50 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/17 17:13:50 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/17 17:13:55 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/17 17:13:55 INFO  Log:24 - user is going to validate NopLogo
+2023-04/17 17:13:55 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/17 17:13:55 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/17 17:17:30 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/17 17:17:33 INFO  Log:24 - user is clickon the loging 
+2023-04/17 17:17:37 INFO  Log:24 - user is successfully entered the email and password
+2023-04/17 17:17:37 INFO  Log:24 - loginTest test case is passed
+2023-04/17 17:17:37 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/17 17:19:57 INFO  Log:17 - =========registerTestTEST START=========
+2023-04/17 17:20:08 INFO  Log:24 - user is successfully clicon the register button
+2023-04/17 17:22:18 INFO  Log:17 - =========verifyComputersLinkTEST START=========
+2023-04/17 17:22:21 INFO  Log:24 - verifyComputersLink testcase is passed
+2023-04/17 17:22:21 INFO  Log:20 - =========verifyComputersLinkTEST END=======
+2023-04/17 17:22:27 INFO  Log:17 - =========verifyElectronicsLinkTEST START=========
+2023-04/17 17:22:32 INFO  Log:24 - verifyElectronicsLink testcase is passed
+2023-04/17 17:22:32 INFO  Log:20 - =========verifyElectronicsLinkTEST END=======
+2023-04/17 17:24:05 INFO  Log:17 - =========searchProductTestTEST START=========
+2023-04/17 17:24:17 INFO  Log:24 - searchProductTest testcase is passed
+2023-04/17 17:24:17 INFO  Log:20 - =========searchProductTestTEST END=======
+2023-04/17 17:27:49 INFO  Log:17 - =========AddToCartTestTEST START=========
+2023-04/17 17:27:59 INFO  Log:24 - user is successfully entered the product name
+2023-04/17 17:28:03 INFO  Log:24 - user search the product
+2023-04/17 17:28:06 INFO  Log:24 - user successfully select the mac
+2023-04/17 17:28:08 INFO  Log:24 - user is getting allert msg
+2023-04/17 17:28:10 INFO  Log:24 - user is successfully select the shopping cart
+2023-04/17 17:28:10 INFO  Log:24 - AddToCartTest testcase is passed
+2023-04/17 17:28:10 INFO  Log:20 - =========AddToCartTestTEST END=======
+2023-04/17 17:30:36 INFO  Log:17 - =========ShoppingCartPageTestTEST START=========
+2023-04/17 17:30:46 INFO  Log:24 - user is successfully entered the product name
+2023-04/17 17:30:49 INFO  Log:24 - user search the product
+2023-04/17 17:30:51 INFO  Log:24 - user successfully select the mac
+2023-04/17 17:30:53 INFO  Log:24 - user is getting allert msg
+2023-04/17 17:30:56 INFO  Log:24 - user is successfully select the shopping cart
+2023-04/17 17:32:07 INFO  Log:17 - =========ShoppingCartPageTestTEST START=========
+2023-04/17 17:32:15 INFO  Log:24 - user is successfully entered the product name
+2023-04/17 17:32:17 INFO  Log:24 - user search the product
+2023-04/17 17:32:20 INFO  Log:24 - user successfully select the mac
+2023-04/17 17:32:22 INFO  Log:24 - user is getting allert msg
+2023-04/17 17:32:24 INFO  Log:24 - user is successfully select the shopping cart
+2023-04/17 17:35:18 INFO  Log:17 - =========ShoppingCartPageTestTEST START=========
+2023-04/17 17:35:41 INFO  Log:24 - user clicking the shopping cart 
+2023-04/17 17:35:46 INFO  Log:24 - user is successfully select the checkout
+2023-04/17 17:35:46 INFO  Log:24 - ShoppingCartPageTest test case is passed
+2023-04/17 17:35:46 INFO  Log:20 - =========ShoppingCartPageTestTEST END=======
+2023-04/17 17:37:38 INFO  Log:17 - =========ShippingMethodPageTestTEST START=========
+2023-04/17 17:38:05 INFO  Log:24 - user is going to enter the shipping address
+2023-04/17 17:38:15 INFO  Log:24 - ShippingMethodPageTest testcase is passed
+2023-04/17 17:38:15 INFO  Log:20 - =========ShippingMethodPageTestTEST END=======
+2023-04/17 17:40:01 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/17 17:40:42 INFO  Log:24 - user is successfully entered the address
+2023-04/17 17:40:42 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/17 17:40:42 INFO  Log:20 - =========AddressPageTestTEST END=======
+2023-04/17 17:43:55 INFO  Log:17 - =========PaymentPageTestTEST START=========
+2023-04/17 17:44:33 INFO  Log:24 - user is select the payment
+2023-04/17 17:44:37 INFO  Log:24 - user is click on the method continue
+2023-04/17 17:44:40 INFO  Log:24 - user is click on the info continue
+2023-04/17 17:44:40 INFO  Log:24 - PaymentPageTest test case is passed
+2023-04/17 17:44:40 INFO  Log:20 - =========PaymentPageTestTEST END=======
+2023-04/17 17:53:27 INFO  Log:17 - =========EndToEndTestTEST START=========
+2023-04/17 17:53:28 INFO  Log:24 - user is clic on the account logging
+2023-04/17 17:53:30 INFO  Log:24 - user is going to enter the email and password
+2023-04/17 17:53:33 INFO  Log:24 - user is successfullyt entered the credentials
+2023-04/17 17:53:37 INFO  Log:24 - user is going to search the product
+2023-04/17 17:53:41 INFO  Log:24 - user is searching the mac prodct
+2023-04/17 17:53:44 INFO  Log:24 - user is getting success addtocart message
+2023-04/17 17:53:48 INFO  Log:24 - user successfully click on the shopping page
+2023-04/17 17:53:53 INFO  Log:24 - user is successfully checkout the product
+2023-04/17 17:53:57 INFO  Log:24 - user is successfully entered the address
+2023-04/17 17:54:00 INFO  Log:24 - user is going to click on the continue 
+2023-04/17 17:54:03 INFO  Log:24 - user click on the shippingmethod
+2023-04/17 17:54:16 INFO  Log:24 - user is successfully getting the success message
+2023-04/17 17:54:21 INFO  Log:24 - EndToEndTest test case is passed
+2023-04/17 17:54:21 INFO  Log:20 - =========EndToEndTestTEST END=======
+2023-04/19 10:58:56 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 10:58:58 INFO  Log:24 - user is clickon the loging 
+2023-04/19 10:59:00 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:00:31 INFO  Log:17 - =========registerTestTEST START=========
+2023-04/19 11:00:41 INFO  Log:24 - user is successfully clicon the register button
+2023-04/19 11:00:41 INFO  Log:24 - user is getting success msg
+2023-04/19 11:00:43 INFO  Log:24 - registerTest testcase is passed
+2023-04/19 11:00:43 INFO  Log:20 - =========registerTestTEST END=======
+2023-04/19 11:01:23 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:01:27 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:01:39 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:01:39 INFO  Log:24 - loginTest test case is passed
+2023-04/19 11:01:39 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 11:05:13 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:05:16 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:05:18 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:05:18 INFO  Log:24 - loginTest test case is passed
+2023-04/19 11:05:18 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 11:05:32 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:05:34 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:05:36 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:05:47 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:05:49 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:05:51 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:06:10 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:06:14 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:06:15 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:06:38 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:06:41 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:06:45 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:06:45 INFO  Log:24 - loginTest test case is passed
+2023-04/19 11:06:45 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 11:07:02 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:07:04 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:07:05 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:09:46 INFO  Log:17 - =========verifyComputersLinkTEST START=========
+2023-04/19 11:09:50 INFO  Log:24 - verifyComputersLink testcase is passed
+2023-04/19 11:09:50 INFO  Log:20 - =========verifyComputersLinkTEST END=======
+2023-04/19 11:09:57 INFO  Log:17 - =========verifyElectronicsLinkTEST START=========
+2023-04/19 11:10:01 INFO  Log:24 - verifyElectronicsLink testcase is passed
+2023-04/19 11:10:01 INFO  Log:20 - =========verifyElectronicsLinkTEST END=======
+2023-04/19 11:10:08 INFO  Log:17 - =========registerTestTEST START=========
+2023-04/19 11:10:14 INFO  Log:24 - user is successfully clicon the register button
+2023-04/19 11:10:14 INFO  Log:24 - user is getting success msg
+2023-04/19 11:10:16 INFO  Log:24 - registerTest testcase is passed
+2023-04/19 11:10:16 INFO  Log:20 - =========registerTestTEST END=======
+2023-04/19 11:10:25 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 11:10:25 INFO  Log:24 - user is validating the Title
+2023-04/19 11:10:25 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 11:10:25 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 11:10:31 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 11:10:31 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 11:10:31 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 11:10:31 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 11:10:39 INFO  Log:17 - =========AddToCartTestTEST START=========
+2023-04/19 11:10:46 INFO  Log:24 - user is successfully entered the product name
+2023-04/19 11:10:54 INFO  Log:24 - user search the product
+2023-04/19 11:10:56 INFO  Log:24 - user successfully select the mac
+2023-04/19 11:10:58 INFO  Log:24 - user is getting allert msg
+2023-04/19 11:11:00 INFO  Log:24 - user is successfully select the shopping cart
+2023-04/19 11:11:00 INFO  Log:24 - AddToCartTest testcase is passed
+2023-04/19 11:11:00 INFO  Log:20 - =========AddToCartTestTEST END=======
+2023-04/19 11:11:07 INFO  Log:17 - =========ShoppingCartPageTestTEST START=========
+2023-04/19 11:11:28 INFO  Log:24 - user clicking the shopping cart 
+2023-04/19 11:11:37 INFO  Log:24 - user is successfully select the checkout
+2023-04/19 11:11:37 INFO  Log:24 - ShoppingCartPageTest test case is passed
+2023-04/19 11:11:37 INFO  Log:20 - =========ShoppingCartPageTestTEST END=======
+2023-04/19 11:11:43 INFO  Log:17 - =========ShippingMethodPageTestTEST START=========
+2023-04/19 11:12:30 INFO  Log:24 - user is going to enter the shipping address
+2023-04/19 11:12:36 INFO  Log:24 - ShippingMethodPageTest testcase is passed
+2023-04/19 11:12:36 INFO  Log:20 - =========ShippingMethodPageTestTEST END=======
+2023-04/19 11:13:10 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/19 11:14:22 INFO  Log:24 - user is successfully entered the address
+2023-04/19 11:14:22 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/19 11:14:22 INFO  Log:20 - =========AddressPageTestTEST END=======
+2023-04/19 11:14:30 INFO  Log:17 - =========OrderConfirmPageTestTEST START=========
+2023-04/19 11:15:52 INFO  Log:24 - user ckick on the confirm button
+2023-04/19 11:15:55 INFO  Log:24 - user is getting the confirm message
+2023-04/19 11:15:59 INFO  Log:24 - user is click on the final confirm button
+2023-04/19 11:15:59 INFO  Log:24 - OrderConfirmPageTest testcase is passed
+2023-04/19 11:15:59 INFO  Log:20 - =========OrderConfirmPageTestTEST END=======
+2023-04/19 11:16:04 INFO  Log:17 - =========PaymentPageTestTEST START=========
+2023-04/19 11:16:55 INFO  Log:24 - user is select the payment
+2023-04/19 11:16:59 INFO  Log:24 - user is click on the method continue
+2023-04/19 11:17:02 INFO  Log:24 - user is click on the info continue
+2023-04/19 11:17:02 INFO  Log:24 - PaymentPageTest test case is passed
+2023-04/19 11:17:02 INFO  Log:20 - =========PaymentPageTestTEST END=======
+2023-04/19 11:17:09 INFO  Log:17 - =========EndToEndTestTEST START=========
+2023-04/19 11:17:09 INFO  Log:24 - user is clic on the account logging
+2023-04/19 11:17:11 INFO  Log:24 - user is going to enter the email and password
+2023-04/19 11:17:15 INFO  Log:24 - user is successfullyt entered the credentials
+2023-04/19 11:17:23 INFO  Log:24 - user is going to search the product
+2023-04/19 11:17:26 INFO  Log:24 - user is searching the mac prodct
+2023-04/19 11:17:29 INFO  Log:24 - user is getting success addtocart message
+2023-04/19 11:17:37 INFO  Log:24 - user successfully click on the shopping page
+2023-04/19 11:17:45 INFO  Log:24 - user is successfully checkout the product
+2023-04/19 11:17:48 INFO  Log:24 - user is successfully entered the address
+2023-04/19 11:17:50 INFO  Log:24 - user is going to click on the continue 
+2023-04/19 11:17:53 INFO  Log:24 - user click on the shippingmethod
+2023-04/19 11:18:11 INFO  Log:17 - =========searchProductTestTEST START=========
+2023-04/19 11:18:30 INFO  Log:24 - searchProductTest testcase is passed
+2023-04/19 11:18:30 INFO  Log:20 - =========searchProductTestTEST END=======
+2023-04/19 11:18:41 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:18:43 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:18:47 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:18:47 INFO  Log:24 - loginTest test case is passed
+2023-04/19 11:18:47 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 11:19:00 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:19:02 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:19:05 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:19:15 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:19:16 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:19:18 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:19:30 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:19:32 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:19:35 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:19:50 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:19:51 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:19:55 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:19:55 INFO  Log:24 - loginTest test case is passed
+2023-04/19 11:19:55 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 11:20:05 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 11:20:08 INFO  Log:24 - user is clickon the loging 
+2023-04/19 11:20:09 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 11:55:52 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 11:55:52 INFO  Log:24 - user is validating the Title
+2023-04/19 11:55:52 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 11:55:52 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 11:56:02 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 11:56:02 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 11:56:02 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 11:56:02 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 11:57:16 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 11:57:16 INFO  Log:24 - user is validating the Title
+2023-04/19 11:57:16 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 11:57:16 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 11:57:25 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 11:57:25 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 11:57:25 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 11:57:25 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 12:15:52 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 12:15:52 INFO  Log:24 - user is validating the Title
+2023-04/19 12:15:52 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 12:15:52 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 12:15:58 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 12:15:58 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 12:15:58 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 12:15:58 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 13:49:00 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 13:49:00 INFO  Log:24 - user is validating the Title
+2023-04/19 13:49:00 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 13:49:00 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 13:49:08 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 13:49:08 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 13:49:08 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 13:49:08 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 14:18:16 INFO  Log:17 - =========verifyComputersLinkTEST START=========
+2023-04/19 14:18:22 INFO  Log:24 - verifyComputersLink testcase is passed
+2023-04/19 14:18:22 INFO  Log:20 - =========verifyComputersLinkTEST END=======
+2023-04/19 14:18:30 INFO  Log:17 - =========verifyElectronicsLinkTEST START=========
+2023-04/19 14:18:33 INFO  Log:24 - verifyElectronicsLink testcase is passed
+2023-04/19 14:18:33 INFO  Log:20 - =========verifyElectronicsLinkTEST END=======
+2023-04/19 14:18:41 INFO  Log:17 - =========registerTestTEST START=========
+2023-04/19 14:18:50 INFO  Log:24 - user is successfully clicon the register button
+2023-04/19 14:18:50 INFO  Log:24 - user is getting success msg
+2023-04/19 14:18:53 INFO  Log:24 - registerTest testcase is passed
+2023-04/19 14:18:53 INFO  Log:20 - =========registerTestTEST END=======
+2023-04/19 14:19:00 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 14:19:00 INFO  Log:24 - user is validating the Title
+2023-04/19 14:19:00 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 14:19:00 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 14:19:08 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 14:19:08 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 14:19:08 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 14:19:08 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 14:19:14 INFO  Log:17 - =========AddToCartTestTEST START=========
+2023-04/19 14:19:23 INFO  Log:24 - user is successfully entered the product name
+2023-04/19 14:19:27 INFO  Log:24 - user search the product
+2023-04/19 14:19:30 INFO  Log:24 - user successfully select the mac
+2023-04/19 14:19:32 INFO  Log:24 - user is getting allert msg
+2023-04/19 14:19:34 INFO  Log:24 - user is successfully select the shopping cart
+2023-04/19 14:19:34 INFO  Log:24 - AddToCartTest testcase is passed
+2023-04/19 14:19:34 INFO  Log:20 - =========AddToCartTestTEST END=======
+2023-04/19 14:19:45 INFO  Log:17 - =========ShoppingCartPageTestTEST START=========
+2023-04/19 14:20:08 INFO  Log:24 - user clicking the shopping cart 
+2023-04/19 14:20:14 INFO  Log:24 - user is successfully select the checkout
+2023-04/19 14:20:14 INFO  Log:24 - ShoppingCartPageTest test case is passed
+2023-04/19 14:20:14 INFO  Log:20 - =========ShoppingCartPageTestTEST END=======
+2023-04/19 14:20:23 INFO  Log:17 - =========ShippingMethodPageTestTEST START=========
+2023-04/19 14:20:59 INFO  Log:24 - user is going to enter the shipping address
+2023-04/19 14:21:06 INFO  Log:24 - ShippingMethodPageTest testcase is passed
+2023-04/19 14:21:06 INFO  Log:20 - =========ShippingMethodPageTestTEST END=======
+2023-04/19 14:21:16 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/19 14:21:52 INFO  Log:24 - user is successfully entered the address
+2023-04/19 14:21:52 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/19 14:21:52 INFO  Log:20 - =========AddressPageTestTEST END=======
+2023-04/19 14:21:59 INFO  Log:17 - =========OrderConfirmPageTestTEST START=========
+2023-04/19 14:22:52 INFO  Log:24 - user ckick on the confirm button
+2023-04/19 14:22:56 INFO  Log:24 - user is getting the confirm message
+2023-04/19 14:23:00 INFO  Log:24 - user is click on the final confirm button
+2023-04/19 14:23:00 INFO  Log:24 - OrderConfirmPageTest testcase is passed
+2023-04/19 14:23:00 INFO  Log:20 - =========OrderConfirmPageTestTEST END=======
+2023-04/19 14:23:08 INFO  Log:17 - =========PaymentPageTestTEST START=========
+2023-04/19 14:23:47 INFO  Log:24 - user is select the payment
+2023-04/19 14:23:50 INFO  Log:24 - user is click on the method continue
+2023-04/19 14:23:53 INFO  Log:24 - user is click on the info continue
+2023-04/19 14:23:53 INFO  Log:24 - PaymentPageTest test case is passed
+2023-04/19 14:23:53 INFO  Log:20 - =========PaymentPageTestTEST END=======
+2023-04/19 14:24:03 INFO  Log:17 - =========EndToEndTestTEST START=========
+2023-04/19 14:24:03 INFO  Log:24 - user is clic on the account logging
+2023-04/19 14:24:05 INFO  Log:24 - user is going to enter the email and password
+2023-04/19 14:24:09 INFO  Log:24 - user is successfullyt entered the credentials
+2023-04/19 14:24:17 INFO  Log:24 - user is going to search the product
+2023-04/19 14:24:21 INFO  Log:24 - user is searching the mac prodct
+2023-04/19 14:24:24 INFO  Log:24 - user is getting success addtocart message
+2023-04/19 14:24:29 INFO  Log:24 - user successfully click on the shopping page
+2023-04/19 14:24:38 INFO  Log:24 - user is successfully checkout the product
+2023-04/19 14:24:43 INFO  Log:24 - user is successfully entered the address
+2023-04/19 14:24:45 INFO  Log:24 - user is going to click on the continue 
+2023-04/19 14:24:49 INFO  Log:24 - user click on the shippingmethod
+2023-04/19 14:25:01 INFO  Log:24 - user is successfully getting the success message
+2023-04/19 14:25:06 INFO  Log:24 - EndToEndTest test case is passed
+2023-04/19 14:25:06 INFO  Log:20 - =========EndToEndTestTEST END=======
+2023-04/19 14:25:14 INFO  Log:17 - =========searchProductTestTEST START=========
+2023-04/19 14:25:25 INFO  Log:24 - searchProductTest testcase is passed
+2023-04/19 14:25:25 INFO  Log:20 - =========searchProductTestTEST END=======
+2023-04/19 14:25:35 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 14:25:37 INFO  Log:24 - user is clickon the loging 
+2023-04/19 14:25:41 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 14:25:41 INFO  Log:24 - loginTest test case is passed
+2023-04/19 14:25:41 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 14:25:49 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 14:25:51 INFO  Log:24 - user is clickon the loging 
+2023-04/19 14:25:53 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 14:26:01 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 14:26:04 INFO  Log:24 - user is clickon the loging 
+2023-04/19 14:26:06 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 14:26:14 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 14:26:16 INFO  Log:24 - user is clickon the loging 
+2023-04/19 14:26:18 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 14:26:25 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 14:26:27 INFO  Log:24 - user is clickon the loging 
+2023-04/19 14:26:30 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 14:26:30 INFO  Log:24 - loginTest test case is passed
+2023-04/19 14:26:30 INFO  Log:20 - =========loginTestTEST END=======
+2023-04/19 14:26:37 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 14:26:40 INFO  Log:24 - user is clickon the loging 
+2023-04/19 14:26:41 INFO  Log:24 - user is successfully entered the email and password
