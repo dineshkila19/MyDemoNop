@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.mydemo.utility.ListenerClass"/>
-  </listeners>
-  <test thread-count="5" name="Test_All(failed)">
-    <parameter name="browser" value="Chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mydemo.testcases.LoginPageTest">
+      <class name="com.mydemo.testcases.AddressPageTest">
         <methods>
+          <include name="AddressPageTest"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="afterSuite"/>
-          <include name="loginTest" invocation-numbers="1 2 3 5"/>
-          <include name="tearDown"/>
           <include name="loadconfig"/>
         </methods>
-      </class> <!-- com.mydemo.testcases.LoginPageTest -->
+      </class> <!-- com.mydemo.testcases.AddressPageTest -->
     </classes>
-  </test> <!-- Test_All(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

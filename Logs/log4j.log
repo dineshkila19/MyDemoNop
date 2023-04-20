@@ -324,3 +324,60 @@
 2023-04/19 14:26:37 INFO  Log:17 - =========loginTestTEST START=========
 2023-04/19 14:26:40 INFO  Log:24 - user is clickon the loging 
 2023-04/19 14:26:41 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:22:03 INFO  Log:17 - =========verifyComputersLinkTEST START=========
+2023-04/19 15:22:09 INFO  Log:24 - verifyComputersLink testcase is passed
+2023-04/19 15:22:09 INFO  Log:20 - =========verifyComputersLinkTEST END=======
+2023-04/19 15:22:17 INFO  Log:17 - =========verifyElectronicsLinkTEST START=========
+2023-04/19 15:22:22 INFO  Log:24 - verifyElectronicsLink testcase is passed
+2023-04/19 15:22:22 INFO  Log:20 - =========verifyElectronicsLinkTEST END=======
+2023-04/19 15:23:15 INFO  Log:17 - =========getTitleTestTEST START=========
+2023-04/19 15:23:15 INFO  Log:24 - user is validating the Title
+2023-04/19 15:23:15 INFO  Log:24 - getTitleTest testcase is passed
+2023-04/19 15:23:15 INFO  Log:20 - =========getTitleTestTEST END=======
+2023-04/19 15:23:23 INFO  Log:17 - =========verifyMyNopLogoTEST START=========
+2023-04/19 15:23:23 INFO  Log:24 - user is going to validate NopLogo
+2023-04/19 15:23:24 INFO  Log:24 - verifyMyNopLogo testcase is passed
+2023-04/19 15:23:24 INFO  Log:20 - =========verifyMyNopLogoTEST END=======
+2023-04/19 15:23:30 INFO  Log:17 - =========searchProductTestTEST START=========
+2023-04/19 15:23:39 INFO  Log:24 - searchProductTest testcase is passed
+2023-04/19 15:23:39 INFO  Log:20 - =========searchProductTestTEST END=======
+2023-04/19 15:23:50 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 15:23:52 INFO  Log:24 - user is clickon the loging 
+2023-04/19 15:23:54 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:24:01 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 15:24:03 INFO  Log:24 - user is clickon the loging 
+2023-04/19 15:24:05 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:24:12 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 15:24:14 INFO  Log:24 - user is clickon the loging 
+2023-04/19 15:24:16 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:24:26 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 15:24:28 INFO  Log:24 - user is clickon the loging 
+2023-04/19 15:24:30 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:24:37 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 15:24:38 INFO  Log:24 - user is clickon the loging 
+2023-04/19 15:24:40 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:24:48 INFO  Log:17 - =========loginTestTEST START=========
+2023-04/19 15:24:49 INFO  Log:24 - user is clickon the loging 
+2023-04/19 15:24:50 INFO  Log:24 - user is successfully entered the email and password
+2023-04/19 15:50:24 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/19 15:50:58 INFO  Log:24 - user is successfully entered the address
+2023-04/19 15:50:58 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/19 15:50:58 INFO  Log:20 - =========AddressPageTestTEST END=======
+2023-04/19 15:51:05 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/19 15:51:35 INFO  Log:24 - user is successfully entered the address
+2023-04/19 15:51:35 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/19 15:51:35 INFO  Log:20 - =========AddressPageTestTEST END=======
+2023-04/20 10:16:40 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/20 10:18:43 INFO  Log:17 - =========registerTestTEST START=========
+2023-04/20 10:18:48 INFO  Log:24 - user is successfully clicon the register button
+2023-04/20 10:18:48 INFO  Log:24 - user is getting success msg
+2023-04/20 10:18:49 INFO  Log:24 - registerTest testcase is passed
+2023-04/20 10:18:49 INFO  Log:20 - =========registerTestTEST END=======
+2023-04/20 10:18:58 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/20 10:19:25 INFO  Log:24 - user is successfully entered the address
+2023-04/20 10:19:25 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/20 10:19:25 INFO  Log:20 - =========AddressPageTestTEST END=======
+2023-04/20 10:19:32 INFO  Log:17 - =========AddressPageTestTEST START=========
+2023-04/20 10:19:58 INFO  Log:24 - user is successfully entered the address
+2023-04/20 10:19:58 INFO  Log:24 - AddressPageTest testcase is passed
+2023-04/20 10:19:58 INFO  Log:20 - =========AddressPageTestTEST END=======

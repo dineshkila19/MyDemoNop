@@ -30,5 +30,20 @@ public class DataProviders {
 	}
 	
 	
+	@DataProvider(name="NopAddressData")
+	public Object[][] getNopAddressdata(){
+		int rows=obj.getRowCount("Billing_Address");
+		int columns=obj.getColumnCount("Billing_Address");
+		int actrows=rows-1;
+		Object[][] data=new Object[actrows][columns];
+		for(int i=0; i<actrows; i++) {
+			for(int j=0; j<columns; j++) {
+				data[i][j]=obj.getCellData("illing_Address", j, i+2);
+			}
+		}
+		return data;
+	}
+	
+	
 
 }

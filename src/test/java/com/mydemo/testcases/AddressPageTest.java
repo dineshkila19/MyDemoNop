@@ -9,6 +9,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mydemo.base.BaseClass;
+import com.mydemo.dataprovider.DataProviders;
 import com.mydemo.pageobjects.AddToCartPage;
 import com.mydemo.pageobjects.AddressPage;
 import com.mydemo.pageobjects.HomePage;
@@ -44,8 +45,8 @@ public class AddressPageTest extends BaseClass{
 		getDriver().quit();
 	}
 	
-	@Test(groups= {"Sanity","Regression"})
-	public void AddressPageTest() throws InterruptedException {
+	@Test(dataProvider="NopAddressData", dataProviderClass=DataProviders.class, groups= {"Sanity","Regression"})
+	public void AddressPageTest(String scity, String saddress, String szip, String sphno) throws InterruptedException {
 		Log.startTestCase("AddressPageTest");
 		IndexPage indexPage=new IndexPage();
 		loginPage=indexPage.clikOnLoginAccount();
@@ -61,10 +62,10 @@ public class AddressPageTest extends BaseClass{
 		Thread.sleep(3000);
 		addressPage=shoppingCartPage.clickOnCheckOut();
 		addressPage.selectCountry();
-		addressPage.setCity("Tirupati");
-		addressPage.setAddress1("Ragigunta");
-		addressPage.setZipCode("500062");
-		addressPage.setPhoneNumber("8978675634");
+		addressPage.setCity(scity);
+		addressPage.setAddress1(saddress);
+		addressPage.setZipCode(szip);
+		addressPage.setPhoneNumber(sphno);
 		addressPage.clickOnContinueBtn();
 		Log.info("user is successfully entered the address");
 		Log.info("AddressPageTest testcase is passed");
