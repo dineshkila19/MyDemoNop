@@ -9,6 +9,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mydemo.base.BaseClass;
+import com.mydemo.dataprovider.DataProviders;
 import com.mydemo.pageobjects.AddToCartPage;
 import com.mydemo.pageobjects.HomePage;
 import com.mydemo.pageobjects.IndexPage;
@@ -41,8 +42,8 @@ public class AddToCartPageTest extends BaseClass{
 	}
 	
 	
-	@Test(groups= {"Sanity", "Regression"})
-	public void AddToCartTest() throws InterruptedException {
+	@Test(groups= {"Sanity", "Regression"}, dataProvider="NopAddtoCart", dataProviderClass=DataProviders.class)
+	public void AddToCartTest(String quantity) throws InterruptedException {
 		Log.startTestCase("AddToCartTest");
 		IndexPage indexPage=new IndexPage();
 		loginPage=indexPage.clikOnLoginAccount();
@@ -52,9 +53,10 @@ public class AddToCartPageTest extends BaseClass{
 		addToCartPage=searchReasultPage.searchProductLap();
 		Log.info("user search the product");
 		Thread.sleep(2000);
-		addToCartPage.selectMacProduct();
-		Log.info("user successfully select the mac");
+		addToCartPage.enterQuantity(quantity);
+		Log.info("user successfully entered quantity");
 		Thread.sleep(2000);
+		addToCartPage.clickOnAddToCart();
 		addToCartPage.getProductAddMsg();
 		Log.info("user is getting allert msg");
 		Thread.sleep(2000);

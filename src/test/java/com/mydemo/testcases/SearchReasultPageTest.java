@@ -3,12 +3,15 @@
  */
 package com.mydemo.testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mydemo.base.BaseClass;
+import com.mydemo.dataprovider.DataProviders;
 import com.mydemo.pageobjects.HomePage;
 import com.mydemo.pageobjects.IndexPage;
 import com.mydemo.pageobjects.LoginPage;
@@ -37,14 +40,16 @@ public class SearchReasultPageTest extends BaseClass{
 		getDriver().quit();
 	}
 	
-	@Test(groups="Smoke")
-	public void searchProductTest() {
+	@Test(groups="Smoke", dataProvider="NopSearchProduct", dataProviderClass=DataProviders.class)
+	public void searchProductTest(String productname) {
 		Log.startTestCase("searchProductTest");
 		IndexPage indexPage=new IndexPage();
 		loginPage=indexPage.clikOnLoginAccount();
 		homePage=loginPage.logIn(prop.getProperty("email"), prop.getProperty("password"));
-		searchReasultPage=homePage.searchProduct("Lenovo Thinkpad X1 Carbon Laptop");
+		searchReasultPage=homePage.searchProduct(productname);
 		searchReasultPage.searchProductLap();
+		boolean reasult=searchReasultPage.isProductAvailable();
+		Assert.assertTrue(reasult);
 		Log.info("searchProductTest testcase is passed");
 		Log.endTestCase("searchProductTest");
 	}

@@ -25,6 +25,10 @@ public class SearchReasultPage extends BaseClass{
 		PageFactory.initElements(getDriver(), this);
 	}
 	
+	public boolean isProductAvailable() {
+		return Action.isDisplayed(getDriver(), productLap);
+	}
+	
 	public AddToCartPage searchProductLap() {
 		Action.click(getDriver(), productLap);
 		return new AddToCartPage();

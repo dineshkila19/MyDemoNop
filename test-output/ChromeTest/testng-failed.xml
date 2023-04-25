@@ -12,14 +12,14 @@
       </run>
     </groups>
     <classes>
-      <class name="com.mydemo.testcases.LoginPageTest">
+      <class name="com.mydemo.testcases.RegisterPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="loginTest" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="registerTest" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="loadconfig"/>
         </methods>
-      </class> <!-- com.mydemo.testcases.LoginPageTest -->
+      </class> <!-- com.mydemo.testcases.RegisterPageTest -->
     </classes>
   </test> <!-- SmokeTest(failed) -->
 </suite> <!-- Failed suite [ChromeTest] -->

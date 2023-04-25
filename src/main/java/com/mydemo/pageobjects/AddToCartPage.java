@@ -32,10 +32,17 @@ public class AddToCartPage extends BaseClass{
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	public void selectMacProduct() {
-		Action.type(txtQuantity, "3");
+	
+	public void enterQuantity(String quantity1) {
+		Action.type(txtQuantity, quantity1);
+	}
+	
+	public void clickOnAddToCart() {
 		Action.click(getDriver(), addToCartBtn);
 	}
+	
+	
+	
 	
 	public String getProductAddMsg() {
 		String addMSG=productAddedMsg.getText();

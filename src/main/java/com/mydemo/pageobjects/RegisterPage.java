@@ -17,7 +17,10 @@ import com.mydemo.base.BaseClass;
 public class RegisterPage extends BaseClass{
 	
 	@FindBy(id="gender-male")
-	WebElement radioMale;
+	WebElement male;
+	
+	@FindBy(id="gender-female")
+	WebElement female;
 	
 	@FindBy(id="FirstName")
 	WebElement txtFirstName;
@@ -25,13 +28,13 @@ public class RegisterPage extends BaseClass{
 	@FindBy(id="LastName")
 	WebElement txtLastName;
 	
-	@FindBy(xpath="//*[@name='DateOfBirthDay']")
+	@FindBy(xpath="//*[@class='inputs date-of-birth']/div/select[1]")
 	WebElement dobDay;
 	
-	@FindBy(xpath="//*[@name='DateOfBirthMonth']")
+	@FindBy(xpath="//*[@class='inputs date-of-birth']/div/select[2]")
 	WebElement dobMonth;
 	
-	@FindBy(xpath="//*[@name='DateOfBirthYear']")
+	@FindBy(xpath="//*[@class='inputs date-of-birth']/div/select[3]")
 	WebElement dobYear;
 	
 	@FindBy(id="Email")
@@ -40,7 +43,7 @@ public class RegisterPage extends BaseClass{
 	@FindBy(id="Newsletter")
 	WebElement uncheckBox;
 	
-	@FindBy(id="Company")
+	@FindBy(xpath="//input[@id='Company']")
 	WebElement txtCompany;
 	
 	@FindBy(xpath="//input[@id='Password']")
@@ -62,35 +65,41 @@ public class RegisterPage extends BaseClass{
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	public void clickOnMale() {
-		Action.click(getDriver(), radioMale);
-	}
-	public void setFirstName(String ufname) {
-		Action.type(txtFirstName, ufname);
-	}
-	public void setLastName(String ulname) {
-		Action.type(txtLastName, ulname);
-	}
-	public void selectDob() {
-		Action.selectByVisibleText(dobDay, "19");
-		Action.selectByIndex(dobMonth, 5);
-		Action.selectByVisibleText(dobYear, "1995");
-	}
-	public void setEmail(String uemail) {
-		Action.type(txtEmail, uemail);
-	}
-	public void uncheckBox() {
+	public void createAccount(String gender, String fname,
+								String lname,
+								String day,
+								String month,
+								String year,
+								String email,
+								String companyname,
+								String password,
+								String cpwd) {
+		
+		
+		if(gender.equalsIgnoreCase("male")) {
+			Action.click(getDriver(), male);
+		}else {
+			Action.click(getDriver(), female);
+		}
+		
+		Action.type(txtFirstName, fname);
+		Action.type(txtLastName, lname);
+		Action.selectByValue(dobDay, day);
+		Action.selectByVisibleText(dobMonth, month);
+		Action.selectByVisibleText(dobYear, year);
+		Action.type(txtEmail, email);
+		Action.type(txtCompany, companyname);
 		Action.click(getDriver(), uncheckBox);
+		Action.type(txtPassword, password);
+		Action.type(txtConfirmPwd, cpwd);
+		
+		
+		
 	}
-	public void setCompanyName(String ucompanyname) {
-		Action.type(txtCompany, ucompanyname);
-	}
-	public void setPassword(String upwd) {
-		Action.type(txtPassword, upwd);
-	}
-	public void setConfirmPwd(String ucpwd) {
-		Action.type(txtConfirmPwd, ucpwd);
-	}
+	
+	
+	
+	
 	public void clickOnRegister() {
 		Action.click(getDriver(), registerBtn1);
 	}
@@ -103,7 +112,7 @@ public class RegisterPage extends BaseClass{
 		Action.click(getDriver(), continueBtn);
 		return new IndexPage();
 	}
-	
+
 	
 	
 	

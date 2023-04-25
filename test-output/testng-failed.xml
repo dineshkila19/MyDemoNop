@@ -1,17 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mydemo.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test_All(failed)">
+    <parameter name="browser" value="Chrome"/>
     <classes>
+      <class name="com.mydemo.testcases.PaymentPageTest">
+        <methods>
+          <include name="PaymentPageTest"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="loadconfig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.PaymentPageTest -->
+      <class name="com.mydemo.testcases.AddToCartPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="AddToCartTest" invocation-numbers="0 1 2"/>
+          <include name="loadconfig"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.AddToCartPageTest -->
       <class name="com.mydemo.testcases.AddressPageTest">
         <methods>
-          <include name="AddressPageTest"/>
+          <include name="AddressPageTest" invocation-numbers="0 1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="afterSuite"/>
           <include name="loadconfig"/>
         </methods>
       </class> <!-- com.mydemo.testcases.AddressPageTest -->
+      <class name="com.mydemo.testcases.RegisterPageTest">
+        <methods>
+          <include name="registerTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="loadconfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.RegisterPageTest -->
+      <class name="com.mydemo.testcases.ShippingMethodPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ShippingMethodPageTest"/>
+          <include name="afterSuite"/>
+          <include name="loadconfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.ShippingMethodPageTest -->
+      <class name="com.mydemo.testcases.EndToEndTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="EndToEndTest"/>
+          <include name="loadconfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.EndToEndTest -->
+      <class name="com.mydemo.testcases.ShoppingCartPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="loadconfig"/>
+          <include name="tearDown"/>
+          <include name="ShoppingCartPageTest"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.ShoppingCartPageTest -->
+      <class name="com.mydemo.testcases.SearchReasultPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="loadconfig"/>
+          <include name="setUp"/>
+          <include name="searchProductTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.SearchReasultPageTest -->
+      <class name="com.mydemo.testcases.OrderConfirmPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="OrderConfirmPageTest"/>
+          <include name="setUp"/>
+          <include name="loadconfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.OrderConfirmPageTest -->
+      <class name="com.mydemo.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="tearDown"/>
+          <include name="loadconfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test_All(failed) -->
+</suite> <!-- Failed suite [Suite] -->
